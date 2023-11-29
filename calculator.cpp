@@ -18,7 +18,14 @@ int main() {
             cout << "Resultado: " << resultado << endl;
             break;
 
-        
+        case '-':
+            resultado = num1 - num2;
+            cout << "Resultado: " << resultado << endl;
+            break;
+
+        default:
+            cout << "Operador no válido." << endl;
+            break;
     }
 
     return 0;
