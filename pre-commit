@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Ejecuta tu script de comprobación de estilo aquí
+eslint .
+
+# Si eslint encuentra algún problema, detiene el commit
+if [ $? -ne 0 ]; then
+   echo "Commit abortado debido a problemas de estilo"
+   exit 1
+fi
+
