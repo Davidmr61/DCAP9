@@ -16,7 +16,7 @@ int main() {
        case '+':
            resultado = num1 + num2;
            cout << "Resultado: " << resultado << endl;
-           break
+           break;
 
        case '-':
            resultado = num1 - num2;
