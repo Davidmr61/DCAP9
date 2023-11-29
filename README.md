@@ -1,14 +1,11 @@
 # DCAP9
 
-Prac9 DCA
-
 Los alias los he creado así:
 
 git config --global alias.st status
 git config --global alias.br branch
 git config alias.pu push
 git config alias.cm commit
-
 
 Como he encontrado el fallo ccon bisect?
 
