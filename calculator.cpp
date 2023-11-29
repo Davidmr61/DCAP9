@@ -26,7 +26,14 @@ int main() {
             resultado = num1 * num2;
             cout << "Resultado: " << resultado << endl;
             break;
-        
+        case '/':
+            if (num2 != 0) {
+                resultado = num1 / num2;
+                cout << "Resultado: " << resultado << endl;
+            } else {
+                cout << "No se puede dividir por cero." << endl;
+            }
+            break;
         default:
             cout << "Operador no válido." << endl;
             break;
