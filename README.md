@@ -59,3 +59,4 @@ git push
 
 //Good y bad junto al commit para indicar que funciona o no, de esa manera he podido encontrar el fallo.
 
+//Hook instalado y usando: eslint
