@@ -14,7 +14,7 @@ int main() {
 
     switch (operador) {
         case '+':
-            resultado = num1 - num2;
+            resultado = num1 + num2;
             cout << "Resultado: " << resultado << endl;
             break;
 
